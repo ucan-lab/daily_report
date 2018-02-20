@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf3c948f982e4ea5ec2fcaef27270719",
+    "content-hash": "c4a6917d04dca8034379961a6ddeb102",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -451,6 +451,58 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "laravel-ja/comja5",
+            "version": "1.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-ja/comja5.git",
+                "reference": "419852aab174650c645af610464a3d5237dab188"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-ja/comja5/zipball/419852aab174650c645af610464a3d5237dab188",
+                "reference": "419852aab174650c645af610464a3d5237dab188",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "4.5.0"
+            },
+            "bin": [
+                "bin/comja5"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comja\\": "Comja/"
+                },
+                "files": [
+                    "helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hirohisa Kawase",
+                    "email": "hiro.soft@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Translate comments in laravel/laravel 5.* project to Japanese",
+            "keywords": [
+                "japanese",
+                "laravel",
+                "resource"
+            ],
+            "time": "2017-02-06T06:39:37+00:00"
         },
         {
             "name": "laravel/framework",
